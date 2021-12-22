@@ -8,6 +8,7 @@
  */
 function greet(name) {
   // Your code here
+  console.log(`Hello ${name}`);
 }
 
 /**
@@ -19,8 +20,21 @@ function greet(name) {
  * isOdd(7) -> true
  * isOdd(10) -> false
  */
+
+// if (n == 0) {
+//   console.log(`true ${n}`);
+// } else if (n == 1) {
+//   console.log(`false${n}`);
+// }
+
 function isOdd(n) {
-  // Your code here
+  // // Your code here
+  // console.log("n is" + isOdd(1));
+  // console.log("n is" + isOdd(3));
+  // console.log("n is" + isOdd(5));
+  // console.log("n is" + isOdd(7));
+  // console.log("n is" + isOdd(9));
+  return n % 2 == 1;
 }
 
 /**
@@ -30,10 +44,17 @@ function isOdd(n) {
  *
  * e.g.
  * oddsSmallerThan(7) -> 3
+ 
  * oddsSmallerThan(15) -> 7
  */
 function oddsSmallerThan(n) {
   // Your code here
+  return n / 2 == 0;
+
+  function isEven(n) {
+    if (n % 2 == 0) return true;
+    else return false;
+  }
 }
 
 /**
