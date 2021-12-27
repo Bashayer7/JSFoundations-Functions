@@ -10,6 +10,7 @@ function greet(name) {
   // Your code here
   console.log(`Hello ${name}`);
 }
+greet(bashayer);
 
 /**
  * isOdd(n):
@@ -34,7 +35,9 @@ function isOdd(n) {
   // console.log("n is" + isOdd(5));
   // console.log("n is" + isOdd(7));
   // console.log("n is" + isOdd(9));
-  return n % 2 == 1;
+  // return n % 2 == 1;
+  if (!n % 2 == 0) return true;
+  else false;
 }
 
 /**
@@ -69,6 +72,9 @@ function oddsSmallerThan(n) {
  */
 function squareOrDouble(n) {
   // Your code here
+  if (n == isOdd) return;
+  n * n;
 }
+if (n != isOdd) return n * 2;
 
 module.exports = { greet, isOdd, oddsSmallerThan, squareOrDouble };
